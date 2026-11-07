@@ -1,0 +1,114 @@
+{
+  "meta": {
+    "sumber": "Widayani, Solikhah & Syafrianto (2022), FAHMA 20(2), 50-63 (utama); dibandingkan dengan jurnal lain pada proposal",
+    "catatan": "Kode rule (R01-R07) mengikuti rancangan antarmuka (FLUTD = R02). CF pakar per gejala dari Tabel 5 Widayani et al. (2022)."
+  },
+  "skala_keyakinan": [
+    {"label": "Ragu-ragu", "cf": 0.2, "ket": "Hanya menduga, belum jelas"},
+    {"label": "Sedikit yakin", "cf": 0.4, "ket": "Mungkin terlihat"},
+    {"label": "Cukup yakin", "cf": 0.6, "ket": "Terlihat, tetapi tidak selalu"},
+    {"label": "Yakin", "cf": 0.8, "ket": "Terlihat jelas"},
+    {"label": "Sangat yakin", "cf": 1.0, "ket": "Teramati langsung dan pasti"}
+  ],
+  "gejala_bahaya": ["G17", "G22", "G23"],
+  "kategori": ["Kulit", "Pernapasan & mata", "Pencernaan", "Kemih", "Umum"],
+  "gejala": [
+    {"kode": "G01", "nama": "Kebotakan berbentuk lingkaran dengan cincin merah di pinggirnya", "nama_pendek": "Kebotakan melingkar dengan cincin merah", "kategori": "Kulit"},
+    {"kode": "G02", "nama": "Kulit menjadi kelam dan bernanah", "nama_pendek": "Kulit kelam dan bernanah", "kategori": "Kulit"},
+    {"kode": "G25", "nama": "Bulu rontok", "nama_pendek": "Bulu rontok", "kategori": "Kulit"},
+    {"kode": "G26", "nama": "Kulit bersisik dan mengeras", "nama_pendek": "Kulit bersisik dan mengeras", "kategori": "Kulit"},
+    {"kode": "G27", "nama": "Kulit berkerak", "nama_pendek": "Kulit berkerak", "kategori": "Kulit"},
+    {"kode": "G03", "nama": "Bersin dan batuk", "nama_pendek": "Bersin dan batuk", "kategori": "Pernapasan & mata"},
+    {"kode": "G04", "nama": "Cairan dari mata dan hidung", "nama_pendek": "Cairan dari mata dan hidung", "kategori": "Pernapasan & mata"},
+    {"kode": "G05", "nama": "Mata lengket dan tertutup", "nama_pendek": "Mata lengket dan tertutup", "kategori": "Pernapasan & mata"},
+    {"kode": "G06", "nama": "Kelopak mata ketiga terlihat", "nama_pendek": "Kelopak mata ketiga terlihat", "kategori": "Pernapasan & mata"},
+    {"kode": "G22", "nama": "Sulit bernapas", "nama_pendek": "Sulit bernapas", "kategori": "Pernapasan & mata"},
+    {"kode": "G09", "nama": "Muntah", "nama_pendek": "Muntah", "kategori": "Pencernaan"},
+    {"kode": "G11", "nama": "Perut kembung", "nama_pendek": "Perut kembung", "kategori": "Pencernaan"},
+    {"kode": "G12", "nama": "Diare", "nama_pendek": "Diare", "kategori": "Pencernaan"},
+    {"kode": "G13", "nama": "Mulut berbau busuk", "nama_pendek": "Mulut berbau busuk", "kategori": "Pencernaan"},
+    {"kode": "G19", "nama": "Sering buang air besar", "nama_pendek": "Sering buang air besar", "kategori": "Pencernaan"},
+    {"kode": "G20", "nama": "Sering menjilati anus", "nama_pendek": "Sering menjilati anus", "kategori": "Pencernaan"},
+    {"kode": "G21", "nama": "Terdapat cacing di kotoran atau dubur", "nama_pendek": "Terdapat cacing di kotoran atau dubur", "kategori": "Pencernaan"},
+    {"kode": "G14", "nama": "Sering di tempat minum tetapi tidak minum banyak", "nama_pendek": "Sering di tempat minum tetapi tidak minum banyak", "kategori": "Kemih"},
+    {"kode": "G15", "nama": "Kesakitan (menangis atau berteriak) saat buang air kecil", "nama_pendek": "Kesakitan saat buang air kecil", "kategori": "Kemih"},
+    {"kode": "G16", "nama": "Sering menjilati bagian kelamin", "nama_pendek": "Sering menjilati bagian kelamin", "kategori": "Kemih"},
+    {"kode": "G17", "nama": "Air seni sangat sedikit atau tidak ada", "nama_pendek": "Air seni sangat sedikit atau tidak ada", "kategori": "Kemih"},
+    {"kode": "G18", "nama": "Air seni bercampur darah", "nama_pendek": "Air seni bercampur darah", "kategori": "Kemih"},
+    {"kode": "G07", "nama": "Tidak nafsu makan", "nama_pendek": "Tidak nafsu makan", "kategori": "Umum"},
+    {"kode": "G08", "nama": "Lesu atau lemas", "nama_pendek": "Lesu atau lemas", "kategori": "Umum"},
+    {"kode": "G10", "nama": "Demam", "nama_pendek": "Demam", "kategori": "Umum"},
+    {"kode": "G23", "nama": "Gusi pucat", "nama_pendek": "Gusi pucat", "kategori": "Umum"},
+    {"kode": "G24", "nama": "Pembesaran kelenjar getah bening", "nama_pendek": "Pembesaran kelenjar getah bening", "kategori": "Umum"}
+  ],
+  "penyakit": [
+    {
+      "kode": "K01", "nama": "Ringworm", "deskripsi": "Infeksi jamur pada kulit (kurap)",
+      "saran": [
+        "Periksakan kucing ke dokter hewan agar jenis infeksi kulitnya dipastikan.",
+        "Pisahkan sementara kucing dari hewan lain dan anak-anak, karena kurap dapat menular.",
+        "Cuci tangan setelah memegang kucing dan bersihkan tempat tidurnya.",
+        "Jangan memberi obat apa pun tanpa petunjuk dokter hewan."
+      ]
+    },
+    {
+      "kode": "K02", "nama": "Feline Upper Respiratory Infection", "deskripsi": "Infeksi saluran pernapasan atas (flu kucing)",
+      "saran": [
+        "Periksakan kucing ke dokter hewan, terutama bila nafsu makannya menurun.",
+        "Jaga kucing tetap hangat, tenang, dan pisahkan dari kucing lain agar tidak menular.",
+        "Bersihkan area mata dan hidung dengan kain lembut yang hangat dan bersih.",
+        "Jangan memberi obat apa pun tanpa petunjuk dokter hewan."
+      ]
+    },
+    {
+      "kode": "K03", "nama": "Feline Panleukopenia", "deskripsi": "Penyakit virus pada pencernaan dan sel darah putih (distemper)",
+      "saran": [
+        "Segera bawa kucing ke dokter hewan. Penyakit ini dapat memburuk dengan cepat.",
+        "Pisahkan kucing dari kucing lain dan bersihkan tempat makan serta kotorannya.",
+        "Sampaikan ke dokter hewan sejak kapan muntah atau diare terjadi dan status vaksinasinya.",
+        "Jangan memberi obat apa pun tanpa petunjuk dokter hewan."
+      ]
+    },
+    {
+      "kode": "K04", "nama": "FLUTD", "deskripsi": "Gangguan saluran kemih bagian bawah",
+      "saran": [
+        "Segera bawa kucing ke dokter hewan. Kucing yang tidak bisa buang air kecil adalah kondisi darurat.",
+        "Sampaikan ke dokter hewan kapan terakhir kucing buang air dan apakah urinenya berdarah.",
+        "Jangan memberi obat apa pun tanpa petunjuk dokter hewan."
+      ]
+    },
+    {
+      "kode": "K05", "nama": "Cacingan", "deskripsi": "Infestasi cacing pada saluran pencernaan",
+      "saran": [
+        "Periksakan kucing ke dokter hewan, bawa sampel kotoran bila memungkinkan.",
+        "Bersihkan kotak pasir dan area tidur kucing secara rutin.",
+        "Jangan memberi obat cacing tanpa petunjuk dokter hewan, karena jenis dan takarannya berbeda untuk tiap kucing."
+      ]
+    },
+    {
+      "kode": "K06", "nama": "Feline Leukemia (FeLV)", "deskripsi": "Infeksi virus yang melemahkan daya tahan tubuh kucing",
+      "saran": [
+        "Segera periksakan kucing ke dokter hewan untuk pemeriksaan lebih lanjut.",
+        "Pisahkan kucing dari kucing lain karena penyakit ini dapat menular antarkucing.",
+        "Jangan memberi obat apa pun tanpa petunjuk dokter hewan."
+      ]
+    },
+    {
+      "kode": "K07", "nama": "Scabies", "deskripsi": "Infestasi tungau yang menyebabkan kulit bersisik dan berkerak",
+      "saran": [
+        "Periksakan kucing ke dokter hewan untuk memastikan jenis tungau atau penyebab kulitnya.",
+        "Pisahkan kucing dari hewan lain dan cuci alas tidurnya secara rutin.",
+        "Cegah kucing menggaruk berlebihan dan jangan memberi obat tanpa petunjuk dokter hewan."
+      ]
+    }
+  ],
+  "aturan": [
+    {"kode": "R01", "penyakit": "K01", "premis": [["G01", 0.6], ["G02", 0.4]]},
+    {"kode": "R02", "penyakit": "K04", "premis": [["G15", 0.6], ["G16", 0.6], ["G17", 0.8], ["G18", 0.8]]},
+    {"kode": "R03", "penyakit": "K02", "premis": [["G03", 1.0], ["G04", 1.0], ["G05", 0.6], ["G06", 0.4], ["G07", 0.6], ["G08", 0.6]]},
+    {"kode": "R04", "penyakit": "K03", "premis": [["G08", 1.0], ["G09", 0.4], ["G10", 0.8], ["G11", 0.4], ["G12", 1.0], ["G13", 0.4], ["G14", 0.6]]},
+    {"kode": "R05", "penyakit": "K05", "premis": [["G08", 0.6], ["G09", 0.6], ["G19", 0.6], ["G20", 0.6], ["G21", 1.0]]},
+    {"kode": "R06", "penyakit": "K06", "premis": [["G07", 0.4], ["G10", 0.4], ["G12", 0.4], ["G22", 0.4], ["G23", 0.6], ["G24", 0.6]]},
+    {"kode": "R07", "penyakit": "K07", "premis": [["G25", 0.6], ["G26", 0.6], ["G27", 0.6]]}
+  ]
+}
