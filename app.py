@@ -200,7 +200,7 @@ def page_input() -> None:
             else:
                 st.markdown('<div class="sel-empty">Belum ada gejala dipilih.</div>', unsafe_allow_html=True)
             if ss.error:
-                st.markdown(f'<div class="err-box">{escape(ss.error)}</div>', unsafe_allow_html=True)
+                st.markdown(f'<div class="err-box">{escape(ss.error)}</div><div style="height:.5rem"></div>', unsafe_allow_html=True)
             with st.container(key="btn_identify"):
                 st.button("Identifikasi →", on_click=do_identify, use_container_width=True)
             with st.container(key="btn_reset"):
@@ -270,12 +270,13 @@ def page_hasil() -> None:
     )
 
     for h in lain:
-        with st.expander(f"Rincian dugaan lain: {h.nama} ({h.persen}%, {h.istilah.lower()})"):
-            st.markdown(breakdown(h), unsafe_allow_html=True)
-            st.markdown(
-                '<div class="saran-card"><ul>' + "".join(f"<li>{escape(s)}</li>" for s in h.saran) + "</ul></div>",
-                unsafe_allow_html=True,
-            )
+        saran_lain = "".join(f"<li>{escape(x)}</li>" for x in h.saran)
+        st.markdown(
+            f'<details class="more"><summary>Rincian dugaan lain: {escape(h.nama)} '
+            f'({h.persen}%, {h.istilah.lower()})</summary><div class="more-body">{breakdown(h)}'
+            f'<div class="saran-card"><ul>{saran_lain}</ul></div></div></details>',
+            unsafe_allow_html=True,
+        )
 
     with st.container(key="btn_new"):
         st.button("Konsultasi baru", on_click=do_new)
