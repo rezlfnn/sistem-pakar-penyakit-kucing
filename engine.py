@@ -162,7 +162,8 @@ def identifikasi(fakta: dict[str, float], kb: dict) -> HasilKonsultasi:
                 saran=penyakit["saran"],
             )
         )
-    hasil.sort(key=lambda h: h.cf, reverse=True)
+    # Urut: CF tertinggi; bila sama, penyakit dengan proporsi gejala premis cocok lebih besar didahulukan.
+    hasil.sort(key=lambda h: (round(h.cf, 6), len(h.cocok) / h.jumlah_premis), reverse=True)
     bahaya = [
         (k, kb["gejala_by_kode"][k]["nama"][0].lower() + kb["gejala_by_kode"][k]["nama"][1:])
         for k in sorted(fakta)
