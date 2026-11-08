@@ -1,0 +1,11 @@
+id,sumber,gejala,diagnosis_pembanding,persen_jurnal
+W01,Widayani 2022 Tabel 9,G03:1.0;G04:1.0;G05:0.4;G07:0.8;G08:0.8;G09:1.0,K02,100
+W02,Widayani 2022 Tabel 9,G17:0.8;G16:0.8;G14:0.4,K04,81
+W03,Widayani 2022 Tabel 9,G09:0.8;G19:1.0;G20:0.8;G21:1.0;G07:0.8,K05,100
+W04,Widayani 2022 Tabel 9,G13:0.8;G11:0.4;G12:1.0;G09:1.0;G08:1.0,K03,100
+W05,Widayani 2022 Tabel 9,G07:0.4;G05:1.0;G08:1.0;G09:0.8;G01:0.8,K02|K01,100
+W06,Widayani 2022 Tabel 9,G12:1.0;G11:0.8;G08:1.0;G09:1.0;G14:0.8,K03,100
+W07,Widayani 2022 Tabel 9,G22:0.8;G23:1.0;G07:1.0,K06,84
+W08,Widayani 2022 Tabel 9,G07:1.0;G24:0.8;G23:1.0;G25:0.8,K06,88
+W09,Widayani 2022 Tabel 9,G15:0.8;G17:0.8;G18:1.0,K04,96
+W10,Widayani 2022 Tabel 9,G19:1.0;G12:1.0;G21:1.0,K05,100
