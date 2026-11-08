@@ -164,3 +164,25 @@ table.cf th{ border-top:none !important; border-bottom:none !important; }
 [class*="st-key-row_"] [data-testid="stCheckbox"] label{ cursor:pointer; padding:.2rem 0; }
 [class*="st-key-row_"] [data-testid="stCheckbox"] p{ white-space:normal !important; word-break:normal; overflow-wrap:anywhere; }
 .lc-head .c{ white-space:nowrap; }
+
+/* ---------- perbaikan v4: ikon Material (panah expander dll.) ---------- */
+[data-testid="stIconMaterial"], .stApp [data-testid="stIconMaterial"], span[class*="material-symbols"]{
+  font-family:'Material Symbols Rounded','Material Symbols Outlined' !important;
+  font-weight:400 !important; font-style:normal; line-height:1; letter-spacing:normal; text-transform:none;
+  white-space:nowrap; word-wrap:normal; direction:ltr; -webkit-font-feature-settings:'liga'; font-feature-settings:'liga';
+  overflow:hidden; width:1.25rem; flex-shrink:0;
+}
+[data-testid="stExpander"] summary{ display:flex; align-items:center; gap:.6rem; }
+[data-testid="stExpander"] summary p{ margin:0; }
+
+/* ---------- perbaikan v5: panel lipat HTML & kotak error ---------- */
+.err-box{ display:block; margin:.3rem 0 .4rem; line-height:1.4; }
+.st-key-sel_card [data-testid="stElementContainer"]{ height:auto !important; }
+.st-key-btn_identify{ margin-top:.4rem; }
+details.more{ background:var(--card); border-radius:16px; margin-bottom:.7rem; overflow:hidden; }
+details.more summary{ cursor:pointer; padding:.95rem 1.3rem; font-weight:600; font-size:.95rem; list-style:none; color:var(--dark); }
+details.more summary::-webkit-details-marker{ display:none; }
+details.more summary::before{ content:"▸"; display:inline-block; width:1.3rem; }
+details.more[open] summary::before{ content:"▾"; }
+details.more[open] summary{ border-bottom:1px solid #c5d9c8; }
+details.more .more-body{ padding:1.2rem 1.3rem .6rem; }
